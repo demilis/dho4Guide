@@ -1,0 +1,648 @@
+[
+  {
+    "name": "게르하르트",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "북해 함부르크 항구-톨빈대 해산or산하 후 기항도시"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "북해 함부르크 항구-톨빈대 해산or산하 후 기항도시"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "북해 함부르크 항구-톨빈대 해산or산하 후 기항도시"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "북해 암스테르담-함부르크-쓰러뜨리지 않아도 됩니다 선택"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "북해 함부르크"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "북해 함부르크"
+      }
+    ]
+  },
+  {
+    "name": "크리스티나",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "잠-북해 런던 술집"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "잠-북해 런던 술집"
+
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "잠-북해 런던 술집"
+
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "아프리카 다녀온뒤 낭트 출발- 훌리오 이벤트- 런던"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "아프리카 다녀온뒤 낭트 출발- 훌리오 이벤트- 런던"
+      },
+      {
+        "character": "호드람(구)",
+        "condition":"아프리카 다녀온뒤 낭트 출발- 훌리오 이벤트- 런던"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "아프리카 다녀온뒤 낭트 출발- 훌리오 이벤트- 런던"
+      }
+    ]
+  },
+  {
+    "name": "제나스",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "지중해 리스본 출항시"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "지중해 리스본 출항시"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "지중해 리스본 출항시"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "지중해 리스본 기항-1000원 지출- 도크에 배 확인"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "지중해 리스본 기항-1000원 지출- 도크에 배 확인"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "지중해 리스본 기항-1000원 지출- 도크에 배 확인"
+      }
+    ]
+  },
+  {
+    "name": "훌리오",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "크리스티나-동남아 말라카 술집"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "크리스티나-동남아 말라카 술집"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "세실리아- 동남아 말라카 술집"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "지중해 제노바 술집"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "지중해 제노바 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "샤를르-지중해 제노바 술집"
+      }
+    ]
+  },
+  {
+    "name": "안젤로",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "지중해 아테네 항구"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "지중해 아테네 항구"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "지중해 아테네 항구"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "지중해 이스탄불 항구"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "지중해 이스탄불 항구"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "지중해 이스탄불 항구"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "지중해 이스탄불 항구"
+      }
+    ]
+  },
+  {
+    "name": "체자레",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "지중해 알렉산드리아- 도크에 배 확인"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "지중해 알렉산드리아- 도크에 배 확인"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "지중해 알렉산드리아- 도크에 배 확인"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "지중해 알렉산드리아 항구, 초기배 라티나급 팔지마세요"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "지중해 알렉산드리아 항구"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "지중해 알렉산드리아 항구"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "지중해 알렉산드리아 항구"
+      }
+    ]
+  },
+  {
+    "name": "에밀리오",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "페르난도-신대륙 베라크루스"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "페르난도-신대륙 베라크루스"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "크리스티나,훌리오-지중해 세빌리아"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "크리스티나,훌리오-지중해 세빌리아"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "샤를르-지중해 세빌리아"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "잠-지중해 세빌리아"
+      }
+    ]
+  },
+  {
+    "name": "마누엘",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "이화- 아프리카 산죠르제 술집"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "아프리카 산죠르제 술집"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "아프리카 산죠르제 술집"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "아프리카 산죠르제 항구"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "아프리카 산죠르제 항구"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "아프리카 산죠르제 항구"
+      }
+    ]
+  },
+  {
+    "name": "샤를르",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "동남아 기아딘 교역소"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "동남아 기아딘 교역소"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "동남아 기아딘 교역소"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "신대륙 하바나"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "신대륙 하바나"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "신대륙 하바나"
+      }
+    ]
+  },
+  {
+    "name": "페르난도",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "지중해 세빌리아 술집"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "신대륙 자메이카 술집"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "지중해 세빌리아 술집"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "신대륙 베라크루스 술집(동전게임승리)"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "신대륙 베라크루스 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "신대륙 베라크루스 술집"
+      }
+    ]
+  },
+  {
+    "name": "이안",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "인도양 바스라 항구"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "인도양 바스라 항구"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "인도양 바스라 항구"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "아프리카 소팔라 술집"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "아프리카 소팔라 술집"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "아프리카 소팔라 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "초기동료"
+      }
+    ]
+  },
+{
+    "name": "알",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "10만 보유-아프리카 에스피노사 1함대 교전 후 5만에 고용"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "10만 보유-아프리카 에스피노사 1함대 교전 후 5만에 고용"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "10만 보유-아프리카 에스피노사 1함대 교전 후 5만에 고용"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "인도양 바스라 술집"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "인도양 바스라 술집"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "인도양 바스라 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "인도양 바스라 술집"
+      }
+    ]
+  },
+  {
+    "name": "사무엘",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "신대륙 포르투벨류 여관"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "초기동료"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "신대륙 포르투벨류 여관"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "인도양 캘리컷 광장"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "인도양 캘리컷 광장"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "인도양 캘리컷 광장"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "인도양 캘리컷 광장"
+      }
+    ]
+  },
+  {
+    "name": "카를로",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "지중해 베네치아 교역소-지중해 시라쿠사 교역소- 베네치아"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "지중해 베네치아 교역소-지중해 시라쿠사 교역소- 베네치아"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "지중해 베네치아 교역소-지중해 시라쿠사 교역소- 베네치아"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "동남아 말라카 교역소"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동남아 말라카 교역소"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동남아 말라카 교역소"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "동남아 말라카 교역소"
+      }
+    ]
+  },
+  {
+    "name": "잠",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "북해 낭트"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "북해 낭트"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "북해 낭트"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "동남아 바타비아 여관- 술집"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동남아 바타비아 여관- 술집"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동남아 바타비아 여관- 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "초기동료"
+      }
+    ]
+  },
+  {
+    "name": "이화",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동아시아 한양 광장"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "동아시아 한양 광장"
+      }
+    ]
+  },
+  {
+    "name": "유리안",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "동아시아 항주 술집- 동아시아  한양 술집/성문-항주 술집"
+      }
+    ]
+  },
+  {
+    "name": "유키히사",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "동아시아  오사카 술집-보급항 에조"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "동아시아  오사카 술집-보급항 에조"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "동아시아  오사카 술집-보급항 에조"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "동아시아  오사카"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동아시아  오사카"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동아시아  오사카"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "초기동료"
+      }
+    ]
+  },
+  {
+    "name": "만물박사 한스",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "인도 항구"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "동아프리카 항구"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "인도양 항구"
+      },
+      {
+        "character": "라파엘(구)",
+        "condition": "지중해 아테네"
+      },
+      {
+        "character": "릴(구)",
+        "condition": "동아프리카 광장"
+      },
+      {
+        "character": "호드람(구)",
+        "condition": "동아프리카 광장"
+      },
+      {
+        "character": "마리아(구)",
+        "condition": "동남아시아 광장"
+      }
+    ]
+  },
+  {
+    "name": "마리아,시엔",
+    "routes": [
+      {
+        "character": "웃딘(신)",
+        "condition": "구루시마 해산- 한양"
+      },
+      {
+        "character": "티알(신)",
+        "condition": "유리안- 동아시아  항주 항구- 동남아 말라카 술집"
+      },
+      {
+        "character": "교타로(신)",
+        "condition": "항주 광장- 말라카 항구- 항주 조합- 한양"
+      }
+    ]
+  }
+]

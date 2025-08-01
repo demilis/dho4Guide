@@ -1,0 +1,55 @@
+{
+    "character": "아지자",
+    "requirements": [
+      {
+        "type": "item_required",
+        "description": "피묻은 샴시르를 소지하고 있어야 하며, 본거지에 보관하거나 장비 중이면 안 됨 (DS판 기준)",
+        "item": "피묻은 샴시르",
+        "must_be_equipped": false,
+        "must_be_carried": true
+      },
+      {
+        "type": "money_required",
+        "description": "소지금 120만닢 이상 필요",
+        "money_min": 1200000
+      },
+      {
+        "type": "main_fleet_members",
+        "description": "다음 인물들이 메인 함대에 소속되어야 이벤트 발생 및 CG 확인 가능",
+        "required_members": [
+          "알 페리도 신",
+          "크리스티나 에르네코",
+          "유키히사 겐조 시라키",
+          "잠 잭 루도와이얀"
+        ],
+        "note": "크리스티나는 CG를 보기 위한 조건이며, 없으면 이벤트 발생 자체는 가능"
+      },
+      {
+        "type": "event_trigger",
+        "description": "바스라 술집에서 피묻은 샴시르 관련 이벤트 발생",
+        "location": "바스라",
+        "requires_item": "피묻은 샴시르"
+      },
+      {
+        "type": "battle_event",
+        "description": "해상에서 아지자의 함대를 전멸시키면 이벤트 발생. 단, 조건 충족 전까지는 무한 리스폰",
+        "location": "인도양",
+        "opponent": "아지자"
+      },
+      {
+        "type": "special_case",
+        "description": "티알로 플레이할 경우: 알은 필수, 크리스티나와 유키히사 중 하나만 필요. + 잠은 반드시 포함되어야 함",
+        "character": "티알",
+        "required_members": [
+          "알 페리도 신",
+          "잠 잭 루도와이얀",
+          "크리스티나 또는 유키히사 중 택1"
+        ]
+      }
+    ],
+    "notes": [
+      "이벤트 발생 전에 바스라 술집에서 대화 이벤트를 반드시 봐야 함",
+      "조건을 만족하지 않으면 아지자의 함대를 격파해도 이벤트가 발생하지 않음",
+      "CG를 보기 위해선 알, 크리스티나, 유키히사, 잠이 모두 메인 함대에 있어야 함"
+    ]
+  }
