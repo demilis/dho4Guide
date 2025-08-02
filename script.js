@@ -680,21 +680,15 @@ class ItemSearchApp {
             });
         }
 
-        // 필터 변경 이벤트
-        const filters = [
-            this.typeFilter,
-            this.positionFilter,
-            this.regionFilter,
-            this.characterFilter,
-            this.mainCharacterFilter,
-            this.acquiredFilter
-        ];
-
-        filters.forEach(filter => {
-            if (filter) {
-                filter.addEventListener('change', () => {
-                    this.handleFilterChange();
-                });
+        // 필터 변경 이벤트 - 이벤트 위임 사용
+        document.addEventListener('change', (e) => {
+            if (e.target.matches('#typeFilter, #regionFilter, #characterFilter, #mainCharacterFilter, #acquiredFilter')) {
+                console.log('필터 변경됨:', e.target.id, '값:', e.target.value);
+                this.handleFilterChange();
+            } else if (e.target.matches('#positionFilter')) {
+                console.log('보직 필터 변경됨:', e.target.id, '값:', e.target.value);
+                // 보직 필터는 updatePositionFilter 호출하지 않고 바로 검색만 실행
+                this.performSearch();
             }
         });
 
@@ -790,6 +784,16 @@ class ItemSearchApp {
         const selectedCharacter = this.characterFilter.value;
         const selectedMainCharacter = this.mainCharacterFilter.value;
         const selectedAcquired = this.acquiredFilter.value;
+        
+        console.log('필터 값들:', {
+            searchTerm,
+            selectedType,
+            selectedPosition,
+            selectedRegion,
+            selectedCharacter,
+            selectedMainCharacter,
+            selectedAcquired
+        });
 
         // 필터링 최적화
         this.filteredItems = this.items.filter(item => {
@@ -812,7 +816,15 @@ class ItemSearchApp {
             if (!typeMatch) return false;
 
             // 보직 필터
-            const positionMatch = !selectedPosition || (item.보직 && item.보직 === selectedPosition);
+            let positionMatch = true;
+            if (selectedPosition) {
+                // 특정 보직이 선택된 경우
+                positionMatch = item.보직 && item.보직 === selectedPosition;
+                console.log(`아이템 "${item.이름}" 보직 필터링: 보직="${item.보직}", 선택="${selectedPosition}", 매치=${positionMatch}`);
+            } else {
+                // "모든 보직"이 선택된 경우 - 모든 아이템 포함 (보직 유무 상관없이)
+                positionMatch = true;
+            }
             
             if (!positionMatch) return false;
 
@@ -1456,11 +1468,19 @@ class ItemSearchApp {
     }
 
     updatePositionFilter() {
+        if (!this.typeFilter || !this.positionFilter) {
+            console.error('필터 요소를 찾을 수 없습니다');
+            return;
+        }
+        
         const selectedType = this.typeFilter.value;
         
         if (selectedType === '장비품') {
             // 장비품이 선택되면 보직 필터 표시
             this.positionFilter.style.display = 'inline-block';
+            
+            // 현재 선택된 보직 값 저장
+            const currentPosition = this.positionFilter.value;
             
             // 사용 가능한 보직 목록 생성
             const positions = new Set();
@@ -1478,6 +1498,11 @@ class ItemSearchApp {
                 option.textContent = position;
                 this.positionFilter.appendChild(option);
             });
+            
+            // 이전에 선택된 보직이 여전히 유효하면 다시 선택
+            if (currentPosition && Array.from(positions).includes(currentPosition)) {
+                this.positionFilter.value = currentPosition;
+            }
         } else {
             // 다른 종류가 선택되면 보직 필터 숨김
             this.positionFilter.style.display = 'none';
